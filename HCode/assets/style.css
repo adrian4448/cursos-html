@@ -89,3 +89,35 @@ footer {
     font-size: .8em;
     text-align: center;
 }
+
+.content-tabuada {
+    width: 100%;
+    text-align: center;
+    max-width: 500px;
+    background-color: #FFF;
+    margin: auto;
+    padding: 20px;
+}
+
+.content-tabuada table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content-tabuada td{
+    padding: .75rem;
+    border-top: 1px solid #DEE2E6;
+}
+
+.content-tabuada tbody tr:nth-child(odd) {
+    background-color: #CCC;
+} 
+
+.content-tabuada tbody tr:hover {
+    background-color: #666;
+}
+
+#valor {
+    width: 100%;
+    padding: 10px;
+}
