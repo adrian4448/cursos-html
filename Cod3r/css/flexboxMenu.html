@@ -13,6 +13,10 @@
         }
         
         .cabecalho {
+            display: flex;
+            flex-direction: row;
+            align-items: center; 
+            justify-content: space-between;
             background: #333;
             color: #fff;
             border-bottom: solid 5px #4faddb;
@@ -22,8 +26,13 @@
         .logo img {
             height: 50px;
         }
-        
+
+        .menu {
+            flex-grow: 10; 
+        }
+
         .menu ul {
+            display: flex;   
             list-style: none;
             margin: 0;
             padding: 0;

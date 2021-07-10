@@ -5,7 +5,63 @@
     <meta charset="UTF-8">
     <title>Desafio Card</title>
     <style>
-        /* ... */
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        .curso {
+            display: inline-block;
+            border: 1px solid black;
+            width: 270px;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .curso img {
+            width: 270px;
+            padding: 10px;
+        }
+        
+        .curso-info {
+            font-family: sans-serif;
+            font-size: 20px;
+            text-align: left;
+            position: relative;
+            bottom: 35px;
+        }
+
+        .curso-info h4 {
+            margin: 25px 20px;
+        }
+
+        .curso-info p {
+            margin: 0px 20px;
+        }
+
+        .curso-preco {
+            text-align: right;
+            position: relative;
+            bottom: 30px;
+            right: 200px;
+        }
+
+        .preco-de {
+            color: red;
+            position: fixed;
+            text-decoration: line-through red;
+            font-size: 20px;
+        }
+
+        .preco-por {
+            color: green;
+            padding-left: 75px;
+            position: fixed;
+            font-size: 25px;
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -21,7 +77,7 @@
             <img src="http://files.cod3r.com.br/curso-web/curso1.jpg" />
             <div class="curso-info">
                 <h4>Docker: Ferramenta essencial para Desenvolvedores</h4>
-                <p>Prof. Fulano</p>
+                
             </div>
             <div class="curso-preco">
                 <span class="preco-de">R$80,00</span>
